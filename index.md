@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> How to play the Piano </title>
+ 
+
+<style>
+
+	body {
+		background-color: black;
+	}
+	
+	h1 {
+		
+		color: white;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		font-style: oblique;
+		font-weight: bold;
+		text-align: center;
+		padding: 40px 40px;
+	}
+	
+	.topnav {font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
+
+	
+/* style topnav bar */
+.topnav {
+	overflow: hidden;
+	background-color: white;
+	text-align: center;
+	}
+	
+
+/* style topnav links */
+.topnav a {
+	float:center;
+	display:inline-block;
+	color:black;
+	padding: 20px 50px;
+	text-decoration: none;
+	}
+
+	
+/* change color on hover */
+.topnav a:hover {
+	background-color: white;
+	color: darkgrey;
+		
+	}
+	
+.image-one{
+	overflow: hidden;
+	background-color: black;
+	text-align: center;
+			}	
+
+.image-one a{
+		float:center;
+		display:block;
+		color:white;
+		padding: 30px 20px;
+		text-decoration: none;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	}
+	
+	
+.image-one a:hover{
+		
+		float:center;
+		background-color: black;
+		color:darkgrey;
+		text-decoration:none;
+	
+	}
+	
+	img {
+		
+		padding:50px 50px;
+	}
+
+
+</style>
+	
+</head>
+	
+	
+	
+<body>
+	<div class="page-wrapper">
+
+		<header>
+			<div class="banner-home">
+				<h1>HOW TO PLAY THE PIANO</h1>
+				
+				
+			</div>
+
+<div class="topnav">
+<a href="index.html">Home</a>
+<a href="About.html">About</a>
+<a href="Print&Audio.html">Print & Audio</a>
+<a href="Contact.html">Contact</a>
+
+</div>
+	
+			
+		</header>
+		<main>
+			<section class="featured-images">
+				<div class="image-one">
+					<img src="240_F_96743796_hkadlZ4v0T9ittemfArCmxnzxrmj1SeY.jpg">
+					<a href="Lesson1.html">Lesson 1:The Piano</a>
+				</div>
+				
+				
+				<div class="image-one">
+					<img src="keyboard-sm.png"width="20%" alt="sheet-music">
+					<a href="Lesson2.html"> Lesson 2:The keyboard</a>
+				</div>
+				
+				<div class="image-one">
+					<img src="premium-printables.png"IB CS IA/premium-printables.png"" width="20%" alt="keyboard">
+					<a href="Lesson3.html">Lesson 3:How to read score</a>
+				</div>
+	
+				
+				<div class="image-one">
+					<img src="premium-practice-session.png" width="20%" alt="quizzes">
+					<a href="quiz.html">QUIZ TIME!</a>
+				</div>
+			</section>
+			
+			
+		
+		</main>
+		
+	</div>	
+</body>
+	
+
+</html>
