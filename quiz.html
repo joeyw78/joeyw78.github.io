@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Lesson 3 </title>
+<link href="style.css" rel="stylesheet">
+<script src="quiz.js"></script>
+
+</head>
+
+<body>
+	
+<div class="page-wrapper">
+
+	<header>
+		<div class="banner-home">
+			<h1>QUIZ</h1>
+				
+				
+		</div>
+	
+<div class="topnav">
+<a href="../index.html">Home</a>
+<a href="About.html">About</a>
+<a href="Print&Audio.html">Print & Audio</a>
+<a href="Contact.html">Contact</a>
+
+</div>
+		
+<form id="quiz" name="quiz">
+		
+<p>1. How many notes does a piano keyboard have?</p>	
+<input id ="textbox" type="text" name="question1">
+		
+	
+<p>2. How many sharps and flats does the C major scale have?</p>	
+<input type ="radio" id="mc" name="question2" value="3">3<br>
+<input type ="radio" id="mc" name="question2" value="1">1<br>		
+<input type ="radio" id="mc" name="question2" value="0">0<br>
+<input type ="radio" id="mc" name="question2" value="2">2<br>
+	
+	
+<p>3. Sound on the piano is produced when _____ hits the strings.</p>	
+<input type ="radio" id="mc" name="question3" value="dampers">dampers<br>
+<input type ="radio" id="mc" name="question3" value="keys">keys<br>		
+<input type ="radio" id="mc" name="question3" value="hammers">hammers<br>
+<input type ="radio" id="mc" name="question3" value="fingers">fingers<br>
+	
+<p>4. What is the distance between the notes C and D?</p>	
+<input type ="radio" id="mc" name="question4" value="whole tone">whole tone<br>
+<input type ="radio" id="mc" name="question4" value="semitone">semitone<br>		
+<input type ="radio" id="mc" name="question4" value="1cm">1cm<br>
+	
+<p>5. How many beats are in a whole note?</p>	
+<input type ="radio" id="mc" name="question5" value="1">1<br>
+<input type ="radio" id="mc" name="question5" value="3">3<br>		
+<input type ="radio" id="mc" name="question5" value="4">4<br>
+<input type ="radio" id="mc" name="question5" value="6">6<br>	
+	
+<p>6. The dynamic indication <em>piano</em> means to play _____. </p>	
+<input type ="radio" id="mc" name="question6" value="loudly">loudly<br>
+<input type ="radio" id="mc" name="question6" value="softly">softly<br>
+
+<p>7. How many lines are there in the staff?</p>	
+<input type ="radio" id="mc" name="question7" value="8">8<br>
+<input type ="radio" id="mc" name="question7" value="10">10<br>		
+<input type ="radio" id="mc" name="question7" value="4">4<br>
+	
+<p>8. List down the note pattern of the piano (write in caps with a space between each note). </p>	
+<input id ="textbox" type="text" name="question8">
+	
+<p>9. The note head and flag are 2 of 3 parts of a note. What is the last part?</p>	
+<input type ="radio" id="mc" name="question9" value="stem">stem<br>
+<input type ="radio" id="mc" name="question9" value="flower">flower<br>		
+<input type ="radio" id="mc" name="question9" value="branch">branch<br>
+	
+<p>10. What does the top number of the time signature indicate?</p>	
+<input type ="radio" id="mc" name="question10" value="The note value for a single beat">The note value for a single beat<br>
+<input type ="radio" id="mc" name="question10" value="The number of bars in the song">The number of bars in the song<br>		
+<input type ="radio" id="mc" name="question10" value="The number of seconds in a measure">The number of seconds in a measure<br>
+<input type ="radio" id="mc" name="question10" value="The number of beats to a measure">The number of beats to a measure<br>
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
